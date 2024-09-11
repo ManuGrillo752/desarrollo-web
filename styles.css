@@ -1,0 +1,40 @@
+h1 {
+    color:aqua;
+    background-color: rgb(95, 62, 39);
+    text-align: center;
+    padding: 50px 25px 15px 5px;
+}
+
+ol{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#facebook{
+    background-color: #3b5998;
+    color:white;
+    text-decoration: none;
+    
+}
+#discord{
+    background-color:#7289da;
+    color: white;
+    text-decoration: none;
+}
+#instagram{
+    background-color: #c13584 ;
+}
+#tiktok{
+    background-color: black;
+    color: red;
+
+}
+#x{
+    background-color:black;
+}
+img{
+    width: 450px;
+}

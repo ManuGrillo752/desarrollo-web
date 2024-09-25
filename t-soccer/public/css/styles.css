@@ -18,6 +18,60 @@ ul{
 }
 header{
     display: flex;
+    justify-content:space-around;
+    background-color:deepskyblue;
+    align-items: center;
+}
+.header-list-item{
+    margin-right: 7.5px;
 }
 
 /* HEADER */
+
+
+
+/* FOOTER */
+#logo-footer{
+    width: 100px;
+}
+
+footer{
+    background-color: deepskyblue;
+}
+
+#derechos{
+    text-align: center;
+}  
+#footer-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* FOOTER */
+
+
+
+
+/* MAIN */
+#playeras-menu{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.article-img{
+    width: 80%;
+}
+
+article{
+    width: 300px;
+    text-align: center;
+    border: 1px solid darkcyan;
+}
+
+
+/* MAIN */

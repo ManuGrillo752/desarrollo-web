@@ -25,6 +25,17 @@ header{
 .header-list-item{
     margin-right: 7.5px;
 }
+a{
+    transition: all 400ms;
+}
+
+a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 3px;
+    
+
+}
 
 /* HEADER */
 
@@ -45,6 +56,13 @@ footer{
 #footer-menu{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
 }
 
 
@@ -55,8 +73,14 @@ footer{
 
 
 /* MAIN */
-#playeras-menu{
+
+main{
+    margin-bottom: 20px;
+}
+.playeras-menu{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 section{

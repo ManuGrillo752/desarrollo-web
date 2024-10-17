@@ -1,6 +1,8 @@
 *{
+    font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 
@@ -19,22 +21,55 @@ ul{
 header{
     display: flex;
     justify-content:space-around;
-    background-color:deepskyblue;
+    background-color: rgb(48, 107, 218);
     align-items: center;
 }
 .header-list-item{
-    margin-right: 7.5px;
+    margin-right: 15px;
+    font-size: 20px;
+
 }
 a{
     transition: all 400ms;
+    
 }
 
 a:hover{
-    color: white;
-    border-bottom: 2px solid white;
+    color: black;
+    border-bottom: 2px solid black;
     padding: 3px;
     
 
+}
+p{
+    font-size: 20px;
+}
+
+
+form{
+    display: flex;
+}
+
+input{
+    font-size: 16px;
+    padding: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+input:focus-visible{
+    outline: none;
+}
+button{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+}
+.seccion-header{
+    color:white
 }
 
 /* HEADER */
@@ -47,11 +82,12 @@ a:hover{
 }
 
 footer{
-    background-color: deepskyblue;
+    background-color: rgb(48, 107, 218);
 }
 
 #derechos{
     text-align: center;
+    padding-bottom: 12px;
 }  
 #footer-menu{
     display: flex;
@@ -75,12 +111,13 @@ a{
 /* MAIN */
 
 main{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(100, 148, 238);
 }
 .playeras-menu{
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 section{
@@ -95,6 +132,21 @@ article{
     width: 300px;
     text-align: center;
     border: 1px solid darkcyan;
+    border-radius: 16px;
+    background-color: white;
+    transition: all 400ms;
+cursor: pointer;
+}
+article:hover{
+    box-shadow: 0 10px 15px rgb(25, 60, 124);
+}
+.redes{
+    font-size: 20px;
+    
+}
+
+li{
+    margin-bottom: 3.5px;
 }
 
 
